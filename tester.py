@@ -28,3 +28,5 @@ for i in range(start, end + 1):
 
 for i in arr_error:
     os.system(f"DIFFMERGE {hw_name}out{i}.txt q{hw_question_number}_res{i}.txt")
+
+input("ENTER ANYTHING TO EXIT")
