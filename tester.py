@@ -3,16 +3,11 @@ import os
 from termcolor import colored
 
 
-# hw_number = input("Enter the homework number: ")
-# hw_question_number = input("Enter the homework's question number: ")
-# hw_name = f"hw{hw_number}q{hw_question_number}"
-
-# start, end = int(input("Enter the starting number of the tests: ")), int(input("Enter the ending number of the tests: "))
-
-hw_number = "5"
-hw_question_number = "2"
+hw_number = input("Enter the homework number: ")
+hw_question_number = input("Enter the homework's question number: ")
 hw_name = f"hw{hw_number}q{hw_question_number}"
-start, end = 5, 15
+
+start, end = int(input("Enter the starting number of the tests: ")), int(input("Enter the ending number of the tests: "))
 
 arr_error = []
 for i in range(start, end + 1):
@@ -33,22 +28,3 @@ for i in range(start, end + 1):
 
 for i in arr_error:
     os.system(f"DIFFMERGE {hw_name}out{i}.txt q{hw_question_number}_res{i}.txt")
-
-import re
-        # print(res)
-        # print(desired_output)
-        # print(res==desired_output)
-        # print(re.match(desired_output, res))
-
-        # print(res, i, end="\n\n\n")
-    # result = subprocess.check_output(batcmd, shell=True)
-
-    # print(res)
-    # print(desired_output)
-    # print(res==desired_output)
-    # print(re.match(desired_output, res))
-
-    # if(re.match(desired_output, res) == None):
-    #     print(res, i, end="\n\n\n")
-
-    # os.system(f"FC {hw_name}out{i}.txt  res{i}.txt")
