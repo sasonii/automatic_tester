@@ -2,8 +2,8 @@
 # Automatic Tester
 
 Created to ease testing your code, especially when too many tests were given.
-
-
+ 
+You are welcomed to text about anything at the following link: https://forms.gle/VbhcEEGiwoBeagjw8
 
 
 ## Usage/Examples
